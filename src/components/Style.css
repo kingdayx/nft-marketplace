@@ -1,0 +1,62 @@
+/* Styles go here */
+.id {
+  border-radius: 50%;
+}
+
+.network {
+  width: 125px;
+  height: 43px;
+  color: #ffffff;
+  background-color: #303030;
+  border: 1mm ridge #55ff55;
+}
+
+.balance {
+  width: 125px;
+  height: 43px;
+  color: #ffffff;
+  background-color: #505050;
+  border: 1mm ridge #55ff55;
+}
+
+.account {
+  width: 150px;
+  height: 43px;
+  color: #55ff55;
+  background-color: #707070;
+  border: 1mm ridge #55ff55;
+}
+
+.bgDark7 {
+  background-color: #1d1d1d;
+}
+
+.navBorderBottom {
+  border-bottom: 1mm ridge rgba(85, 255, 85, 0.8);
+}
+
+.loading {
+  height: 1440px;
+  background-color: #1d1d1d;
+}
+
+p {
+  margin: 5px;
+}
+.Main {
+  overflow: hidden;
+}
+@media all and (max-width: 465px) {
+  .img-container {
+    margin-left: -780px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+  }
+  .p-3 {
+    display: flex;
+    flex-direction: column;
+  }
+}
